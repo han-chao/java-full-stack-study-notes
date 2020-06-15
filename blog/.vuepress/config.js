@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
+  title: 'Java 全栈学习笔记',
+  description: '记录日常技术学习笔记',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
@@ -14,14 +14,15 @@ module.exports = {
      */
     nav: [
       {
-        text: 'Blog',
+        text: '首页',
         link: '/',
       },
       {
-        text: 'Tags',
+        text: '标签',
         link: '/tag/',
       },
     ],
+
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
      */
@@ -29,22 +30,14 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
-        },
-        {
-          type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
-        },
+          link: 'https://github.com/han-chao/java-full-stack-study-notes',
+        }
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
-          link: '',
-        },
+          text: 'Copyright © 2020',
+          link: ' ',
+        }
       ],
     },
   },

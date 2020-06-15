@@ -1160,7 +1160,7 @@
     semver "^6.0.0"
     upath "^1.1.0"
 
-"@vuepress/theme-blog@^2.1.0":
+"@vuepress/theme-blog@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@vuepress/theme-blog/-/theme-blog-2.2.0.tgz#9f176b464c32997d6e65bf47095365c6fb091cfb"
   integrity sha512-zAk3PJ3Sd7/eAF4iq2pYFOtl9b99P9knCnBox0qGgr6dYJ3ln0x6teIqV4F+soJEOGc3RqJ+LtOhR6n08cWkoQ==
